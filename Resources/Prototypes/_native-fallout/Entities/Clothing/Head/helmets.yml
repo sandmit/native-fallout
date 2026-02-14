@@ -412,3 +412,23 @@
     tags:
     - HidesHair
     - HidesBeard
+
+- type: entity
+  parent: N14ClothingHeadHatBaseHelmetMK2
+  id: N14ClothingBoSKnightHelmet
+  name: баллистический шлем рыцаря
+  description: Эргономичная форма обеспечивает отличную защиту головы, а встроенные крепления позволяют установить дополнительное оборудование.
+  components:
+  - type: Sprite
+    sprite: _native-fallout\Clothing\Head\FalloutHelmets\BoS_Mоjave\bosknighthelmet.rsi
+  - type: Clothing
+    sprite: _native-fallout\Clothing\Head\FalloutHelmets\BoS_Mоjave\bosknighthelmet.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.85
+        Slash: 0.85
+        Piercing: 0.9
+        Heat: 0.9
+  - type: ExplosionResistance
+    damageCoefficient: 0.9

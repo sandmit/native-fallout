@@ -349,5 +349,48 @@
   - type: Clothing
     sprite: _native-fallout/Clothing/OuterClothing/Armor/Enclave/EnclaveArmor.rsi
   - type: ToggleableClothing
-    clothingPrototypes: 
+    clothingPrototypes:
       head: N14ClothingHeadHatEnclaveSecretServiceHelmet
+
+- type: entity
+  parent: N14ClothingOuterCombatArmorMK2
+  id: N14ClothingOuterBoSBattleKnight
+  name: боевая броня рыцаря
+  description: Довоенная боевая броня ВВС США, модифицированная писцами братства стали под нужды рыцарей Сонорского отделения.
+  components:
+  - type: Sprite
+    sprite: _native-fallout\Clothing\OuterClothing\Armor\BoS_Mоjave\BattleKnightArmor.rsi
+  - type: Clothing
+    sprite: _native-fallout\Clothing\OuterClothing\Armor\BoS_Mоjave\BattleKnightArmor.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.6
+        Slash: 0.6
+        Piercing: 0.65
+        Heat: 0.65
+  - type: ExplosionResistance
+    damageCoefficient: 0.85
+
+- type: entity
+  parent: N14ClothingOuterCombatArmorMK2
+  id: N14ClothingOuterBoSScvierArmor
+  name: бронежилет сквайера
+  description: Лёгкая защита с символикой Братства Стали, сочетающая мобильность и надёжность. Усиленные керамические пластины надёжно прикрывают жизненно важные зоны, не сковывая движений. Фирменный чёрный цвет с серебристыми элементами и нашивками ордена делает его узнаваемым среди соратников. Идеален для патрулирования и технических работ.
+  components:
+  - type: Sprite
+    sprite: _native-fallout\Clothing\OuterClothing\Armor\BoS_Mоjave\ScvierArmor.rsi
+  - type: Clothing
+    sprite: _native-fallout\Clothing\OuterClothing\Armor\BoS_Mоjave\ScvierArmor.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.85
+        Slash: 0.85
+        Piercing: 0.9
+        Heat: 0.9
+  - type: ExplosionResistance
+    damageCoefficient: 0.95
+  - type: ClothingSpeedModifier
+    walkModifier: 1.03
+    sprintModifier: 1.03

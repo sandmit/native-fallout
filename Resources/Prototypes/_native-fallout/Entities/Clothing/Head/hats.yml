@@ -11,3 +11,36 @@
     sprite: _native-fallout/Clothing/Head/FalloutHats/EnclaveParadeOfficer.rsi
   # - type: ClothingSpecialModifier
     # perceptionModifier: 1
+
+- type: entity
+  parent: ClothingHeadBase
+  id: N14ClothingHeadHatBeretSinior
+  name: берет старшего рыцаря
+  description: Почётный головной убор высшего командного состава Сонорского Братства Стали. Символизирует мудрость и опыт ветерана, доказавшего свою преданность делу сохранения технологий. Является отличительным знаком заслуженных командиров ордена.
+  components:
+  - type: Sprite
+    sprite: _native-fallout\Clothing\Head\Beret\bosberetsinior.rsi
+  - type: Clothing
+    sprite: _native-fallout\Clothing\Head\Beret\bosberetsinior.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: N14ClothingHeadHatPaladinHat
+  name: подбронный капюшон
+  description: Эргономичный крой обеспечивает плотное прилегание под шлемом силовой брони, не создавая дискомфорта при длительном ношении.
+  components:
+  - type: Sprite
+    sprite: _native-fallout\Clothing\Head\Hoods\BoS\bospaladin.rsi
+  - type: Clothing
+    sprite: _native-fallout\Clothing\Head\Hoods\BoS\bospaladin.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: N14ClothingHeadHatScvierCap
+  name: кепка сквайера
+  description: Форменный головной убор с характерным логотипом Братства Стали. Выполнена из прочного чёрного материала. Удобный крой обеспечивает защиту от солнца и надёжную посадку, не мешая обзору во время выполнения служебных обязанностей. Символ преданности делу и принадлежности к элитной организации.
+  components:
+  - type: Sprite
+    sprite: _native-fallout\Clothing\Head\Caps\bosscvier.rsi
+  - type: Clothing
+    sprite: _native-fallout\Clothing\Head\Caps\bosscvier.rsi

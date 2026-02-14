@@ -1,0 +1,23 @@
+- type: entity
+  parent: ClothingMaskGas
+  id: N14ClothingMaskGasBoS
+  name: штурмовой противогаз братства стали
+  description: Незаменимый элемент экипировки для выполнения миссий в заражённых районах.
+  components:
+  - type: Sprite
+    sprite: _native-fallout\Clothing\Mask\bosgasmask.rsi
+  - type: Clothing
+    sprite: _native-fallout\Clothing\Mask\bosgasmask.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.96
+        Slash: 0.96
+        Piercing: 0.98
+        Heat: 0.98
+        Radiation: 0.7
+        Caustic: 0.8
+  - type: HideLayerClothing
+    slots:
+    - Hair
+    - Snout

@@ -1,0 +1,21 @@
+- type: entity
+  parent: N14ClothingUniformSkirtBase
+  id: N14ClothingUniformJumpsuitBoSPaladin
+  name: подбронный комбинезон
+  description: Специальная система фиксаторов обеспечивает надёжное соединение между базовым обмундированием и тяжёлыми элементами доспехов, не создавая дискомфорта при движении.
+  components:
+  - type: Sprite
+    sprite: _native-fallout\Clothing\Uniforms\FalloutSkirts\BoS\paladin.rsi
+  - type: Clothing
+    sprite: _native-fallout\Clothing\Uniforms\FalloutSkirts\BoS\paladin.rsi
+
+- type: entity
+  parent: N14ClothingUniformSkirtBase
+  id: N14ClothingUniformJumpsuitBoSScvier
+  name: комбинезон сквайера
+  description: Прочный комбинезон, который усилен специальными вставками из кожи, защищающими жизненно важные участки тела. Черный цвет с характерными серебристыми элементами создаёт строгий, деловой образ, присущий членам Братства.
+  components:
+  - type: Sprite
+    sprite: _native-fallout\Clothing\Uniforms\FalloutSkirts\BoS\scvier.rsi
+  - type: Clothing
+    sprite: _native-fallout\Clothing\Uniforms\FalloutSkirts\BoS\scvier.rsi

@@ -806,7 +806,7 @@
   - type: Clothing
     sprite: _Nuclear14/Clothing/Head/FalloutHelmets/kingoftherats.rsi
 
-#tribe 
+#tribe
 
 - type: entity
   parent: N14ClothingHeadHatBaseHelmetMK2

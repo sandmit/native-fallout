@@ -9,3 +9,47 @@
     sprite: _native-fallout/Clothing/OuterClothing/Coats/brotherhoodmojavemedicalscribe.rsi
   - type: Clothing
     sprite: _native-fallout/Clothing/OuterClothing/Coats/brotherhoodmojavemedicalscribe.rsi
+
+- type: entity
+  parent: N14ClothingOuterBrotherhoodMidwestMedicalScribeRobes
+  id: N14ClothingOuterMojaveBrotherhoodElderCoat
+  name: мантия старейшины сонорского братства стали
+  description: Величественный символ абсолютной власти в Сонорском Братстве Стали. Изготовлена из роскошной парчовой ткани глубокого красного цвета, расшитой золотыми нитями с древними рунами технологий. Многослойный крой создаёт эффектную драпировку, а высокий воротник-стойка украшен драгоценными камнями, символизирующими мудрость и силу.
+  components:
+  - type: Sprite
+    sprite: _native-fallout\Clothing\OuterClothing\Coats\boselder.rsi
+  - type: Clothing
+    sprite: _native-fallout\Clothing\OuterClothing\Coats\boselder.rsi
+
+- type: entity
+  parent: N14ClothingOuterBrotherhoodMidwestMedicalScribeRobes
+  id: N14ClothingOuterMojaveBrotherhoodHeadPaladin
+  name: пальто старшего паладина
+  description: Символ высокого воинского звания в рядах Братства Стали. Изготовлено из плотной водоотталкивающей ткани светло-коричневого цвета. Усиленные швы и специальная подкладка обеспечивают защиту от непогоды и механических повреждений.
+  components:
+  - type: Sprite
+    sprite: _native-fallout\Clothing\OuterClothing\Coats\bosheadpaladin.rsi
+  - type: Clothing
+    sprite: _native-fallout\Clothing\OuterClothing\Coats\bosheadpaladin.rsi
+
+- type: entity
+  parent: N14ClothingOuterBrotherhoodMidwestMedicalScribeRobes
+  id: N14ClothingOuterMojaveBrotherhoodHeadScribe
+  name: ряса старшего писца
+  description: Торжественная одежда высшего научного состава Сонорского Братства Стали. Изготовлена из особого огнестойкого материала насыщенного красного цвета, символизирующего мудрость и авторитет.
+  components:
+  - type: Sprite
+    sprite: _native-fallout\Clothing\OuterClothing\Coats\bosheadscribe.rsi
+  - type: Clothing
+    sprite: _native-fallout\Clothing\OuterClothing\Coats\bosheadscribe.rsi
+
+- type: entity
+  parent: N14ClothingOuterBrotherhoodMidwestMedicalScribeRobes
+  id: N14ClothingOuterMojaveBrotherhoodHeadScribe
+  name: ряса писца
+  description: Практичная рабочая одежда писцов Сонорского Братства Стали, символ их преданности знаниям.
+  components:
+  - type: Sprite
+    sprite: _native-fallout\Clothing\OuterClothing\Coats\bosscribe.rsi
+  - type: Clothing
+    sprite: _native-fallout\Clothing\OuterClothing\Coats\bosscribe.rsi
